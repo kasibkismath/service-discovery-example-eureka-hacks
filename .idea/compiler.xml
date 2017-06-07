@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-discovery-example-eureka" />
+        <module name="tdlabs-backend" />
+        <module name="tdlabs-eureka-service" />
+        <module name="tdlabs-frontend" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="service-discovery-example-eureka" target="1.5" />
+      <module name="tdlabs-backend" target="1.8" />
+      <module name="tdlabs-eureka-service" target="1.8" />
+      <module name="tdlabs-frontend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

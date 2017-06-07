@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: tdlabs-backend
+
+eureka:
+  client:
+    eureka-server-port: 8761

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: tdlabs-frontend
+
+eureka:
+  client:
+    eureka-server-port: 8761
+    register-with-eureka: false
+    fetch-registry: true
